@@ -41,15 +41,15 @@ Si utilizza il design pattern **Repository-Service-Controller**:
 }
 ```
 
-#### **Ordine 📝**
+#### **Ordine 📝** (sostituisci id_categoria con il nome della categoria come pizza, bevande o fritti)
 ```json
 {
     "id": "uuid",
     "data": "2025-01-20",
     "ora": "20:00",
-    "pizze": ["id_pizza_1", "id_pizza_2"],
-    "bevande": ["id_bevanda_1"],
-    "fritti": ["id_fritto_1"],
+    "id_categoria": ["id_pizza_1", "id_pizza_2"],
+    "id_categoria": ["id_bevanda_1"],
+    "id_categoria": ["id_fritto_1"],
     "totale": 17.00
 }
 ```
